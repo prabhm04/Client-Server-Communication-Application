@@ -3,6 +3,8 @@
 # Python Project
 # ==========================================
 
+test_handshake.py
+
 # Python bytecode and cache
 __pycache__/
 *.py[cod]
