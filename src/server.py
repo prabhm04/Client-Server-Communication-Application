@@ -207,6 +207,7 @@ def handle_client(client_socket, client_name):
                 status_data = get_server_status()
                 send_json(client_socket, status_data)
                 print(f"Status sent to {client_name}")
+                print(json.dumps(status_data, indent=4))
 
             elif message.get("type") == "list":
                 files = get_server_files()
